@@ -6,16 +6,16 @@ app.use(cors());
 app.use(express.json());
 
 const inventory = [
-    { id: 1, productName: "Ergonomic Office Chair", category: "Furniture", price: 1990, supplier: "Acme Corp" },
-    { id: 2, productName: "Wooden Desk", category: "Furniture", price: 2500, supplier: "Acme Corp" },
-    { id: 3, productName: "Wireless Mouse", category: "Electronics", price: 250, supplier: "TechGear" },
-    { id: 4, productName: "Mechanical Keyboard", category: "Electronics", price: 850, supplier: "TechGear" },
-    { id: 5, productName: "Standing Desk", category: "Furniture", price: 3500, supplier: "Acme Corp" },
-    { id: 6, productName: "Noise Cancelling Headphones", category: "Electronics", price: 1500, supplier: "SoundMax" },
-    { id: 7, productName: "Whiteboard", category: "Office Supplies", price: 400, supplier: "EduSupplies" },
-    { id: 8, productName: "Pack of Blue Pens", category: "Office Supplies", price: 90, supplier: "EduSupplies" },
-    { id: 9, productName: "Desk Lamp", category: "Furniture", price: 1200, supplier: "Acme Corp" },
-    { id: 10, productName: "Laptop Stand", category: "Electronics", price: 450, supplier: "TechGear" }
+    { id: 1, productName: "Ergonomic Office Chair", category: "Furniture", price: 199, supplier: "Acme Corp" },
+    { id: 2, productName: "Wooden Desk", category: "Furniture", price: 250, supplier: "Acme Corp" },
+    { id: 3, productName: "Wireless Mouse", category: "Electronics", price: 25, supplier: "TechGear" },
+    { id: 4, productName: "Mechanical Keyboard", category: "Electronics", price: 85, supplier: "TechGear" },
+    { id: 5, productName: "Standing Desk", category: "Furniture", price: 350, supplier: "Acme Corp" },
+    { id: 6, productName: "Noise Cancelling Headphones", category: "Electronics", price: 150, supplier: "SoundMax" },
+    { id: 7, productName: "Whiteboard", category: "Office Supplies", price: 40, supplier: "EduSupplies" },
+    { id: 8, productName: "Pack of Blue Pens", category: "Office Supplies", price: 5, supplier: "EduSupplies" },
+    { id: 9, productName: "Desk Lamp", category: "Furniture", price: 35, supplier: "Acme Corp" },
+    { id: 10, productName: "Laptop Stand", category: "Electronics", price: 45, supplier: "TechGear" }
 ];
 
 app.get('/search', (req, res) => {
