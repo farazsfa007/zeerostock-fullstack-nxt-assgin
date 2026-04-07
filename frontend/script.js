@@ -23,7 +23,7 @@ document.getElementById('search-form').addEventListener('submit', async (e) => {
     errorMessage.classList.add('hidden');
 
     try {
-        const response = await fetch(`http://localhost:4001/search?${params.toString()}`);
+        const response = await fetch(`https://zeerostock-fullstack-nxt-assgin-1.onrender.com/search?${params.toString()}`);
         const data = await response.json();
 
     if (!response.ok) {
