@@ -40,7 +40,7 @@ document.getElementById('search-form').addEventListener('submit', async (e) => {
         row.innerHTML = `
             <td>${item.productName}</td>
             <td>${item.category}</td>
-            <td>$${item.price}</td>
+            <td>Rs.${item.price}</td>
             <td>${item.supplier}</td>
         `;
         resultsBody.appendChild(row);
